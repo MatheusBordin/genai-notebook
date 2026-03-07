@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+.deno/
+.deno-home/
+.jupyter/
+.ipython/
+.env
+.ipynb_checkpoints/

@@ -1,0 +1,18 @@
+{
+  "name": "genai-notebook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jupyter notebook workspace for GenAI builders",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "install:kernel": "node ./install-kernel.mjs",
+    "notebook": "node ./start-jupyter.mjs notebook",
+    "lab": "node ./start-jupyter.mjs lab"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.5.0"
+  }
+}
