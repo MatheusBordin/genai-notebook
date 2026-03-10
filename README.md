@@ -96,3 +96,47 @@ npm run lab
 
 - [Deno ChatML notebook](./notebooks/deno/01-chat-ml.ipynb)
 - [Python ChatML notebook](./notebooks/python/01-chat-ml.ipynb)
+
+## Running Samples
+
+### Deno / TypeScript notebooks
+
+1. Start Jupyter with:
+
+```bash
+npm run notebook
+```
+
+2. Open [notebooks/deno/01-chat-ml.ipynb](/Users/matheusbordin/Documents/Workspace/OSS/genai-notebook/notebooks/deno/01-chat-ml.ipynb)
+3. Select the `Deno` kernel
+4. Run the notebook cell by cell
+
+Use this track when you want:
+
+- modern `import` syntax
+- top-level `await`
+- a Deno runtime closer to modern TypeScript examples
+
+### Python notebooks
+
+1. Start Jupyter with:
+
+```bash
+npm run notebook
+```
+
+2. Open [notebooks/python/01-chat-ml.ipynb](/Users/matheusbordin/Documents/Workspace/OSS/genai-notebook/notebooks/python/01-chat-ml.ipynb)
+3. Select the `Python 3` kernel
+4. Run the notebook cell by cell
+
+Use this track when you want:
+
+- Python SDK examples
+- a more common data and ML workflow
+- parity with production Python codebases
+
+## Notes
+
+- keep only secrets in `.env`
+- for modern APIs, notebooks should prefer provider SDKs
+- the Deno and Python notebooks should stay aligned section by section
